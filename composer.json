@@ -1,0 +1,20 @@
+{
+    "name": "wookie-monster/validator",
+    "description": "Validation library",
+    "authors": [
+        {
+            "name": "R Franks",
+            "email": "ru.franks@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "WookieMonster\\Validator": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
