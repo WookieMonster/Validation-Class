@@ -1,4 +1,4 @@
-PHP Validation Library
+# PHP Validation Library
 
 ## Key features
 
@@ -9,7 +9,7 @@ PHP Validation Library
 
 ## Examples:
 
-Before any validation can take place the rules and fields need to be set. Rules can be set by the first parameter of __construct() or by the setRules() method, or individually by the setRule() method.
+Before any validation can take place the rules and fields need to be set. Rules can be set by the first parameter of __construct() or by the setRules() method, or individually by the setRule() method. Note: your rules and fields arrays must have the same indexes otherwise RulesFieldsMismatchException will be thrown.
 
 Set $rules array using the constructor or setRules() methods:
 
